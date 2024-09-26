@@ -3,7 +3,7 @@ kind: ReplicaSet
 metadata:
   name: transcation-rs
 spec:
-  replicas: 3
+  replicas: 10
   selector:
     matchLabels:
       app: web
